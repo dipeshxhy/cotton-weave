@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "description": "A simple layout design of hero section of cotton weave in html and tailwindcss",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
