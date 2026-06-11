@@ -11,16 +11,16 @@
 <body class="bg-slate-100">
   <!-- main -->
    <main>
-    <div class="box flex gap-40  h-screen">
+    <div class="box md:flex md:flex-row md:gap-40 flex-col gap-0  h-screen">
       <!-- box1 -->
-      <div class="flex-1  grid grid-cols-1 h-full grid-rows-[1fr_1fr_1fr]">
+      <div class="md:flex-1  w-full  md:grid md:grid-cols-1 flex flex-col gap-10 md:h-full md:grid-rows-[1fr_1fr_1fr] bg-red-400">
         <!-- title -->
-         <div class="w-[20vw] h-full    ">
-          <h1 class="text-[5vw] h-full leading-tight   flex items-end ">a cotton weave.</h1>
+         <div class="md:w-[20vw] w-full md:h-full h-fit bg-green-500 ">
+          <h1 class="md:text-[5vw] text-[10vw] h-full leading-tight   flex md:items-end items-start ">a cotton weave.</h1>
          </div>
         <!-- end title -->
          <!-- colors -->
-         <div class="mt-10 self-end">
+         <div class="md:mt-10  md:self-end">
           <div class="flex items-center border px-2 py-4  w-32 h-10 rounded-full justify-between ">
             <h3 class="text-xl px-2 ">colors</h3>
             <div class="flex gap-1.5">
@@ -32,9 +32,9 @@
          <!-- end colors -->
 
          <!-- bottom desc -->
-          <div class="w-[80%] pb-10 self-end">
-            <h3 class="text-[2vw] font-bold mb-6">Details</h3>
-            <p class="text-[1.2vw] text-stone-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur quasi commodi architecto necessitatibus ipsum nobis eius quo tenetur esse placeat, facere deserunt dicta. Iusto deserunt veniam id nisi impedit.</p>
+          <div class="md:w-[80%] w-full pb-10 self-end flex gap-10 md:flex-col md:gap-0">
+            <h3 class="sm:text-[4vw] text-[7vw] font-bold mb-6">Details</h3>
+            <p class="sm:text-[2vw]  text-[3vw] text-stone-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur quasi commodi architecto necessitatibus ipsum nobis eius quo tenetur esse placeat, facere deserunt dicta. Iusto deserunt veniam id nisi impedit.</p>
           </div>
          <!-- end bottom desc -->
 
@@ -42,13 +42,13 @@
         </div>
         <!-- end box1 -->
       <!-- box2 -->
-      <div class="rotate-270 self-center absolute top-[80vh] left-[56vw] translate-x-[-70%] translate-y-[-40%]">
-        <h3 class="text-[2vw] font-bold tracking-wide">Cotton twill cap </h3>
+      <div class="md:rotate-270 rotate-0 self-center md:absolute md:top-[80vh] md:left-[56vw] md:translate-x-[-70%] md:translate-y-[-40%]">
+        <h3 class="md:text-[2vw] text-[5vw] font-bold text-center tracking-wide my-5 md:my-0">Cotton twill cap </h3>
       </div>
-       <div class="flex-1 self-end">
+       <div class="flex-1 self-end flex flex-col">
         <!-- top content -->
-         <div class="flex justify-between ">
-          <span class="text-[2vw] font-bold">$488</span>
+         <div class="flex order-2 md:order-0 justify-between ">
+          <span class="md:text-[2vw] font-bold text-[4vw]">$488</span>
           <div class="flex gap-2 items-center">
             <span class="uppercase text-lg font-bold ">rating</span>
             <div>
