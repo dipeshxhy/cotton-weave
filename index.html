@@ -8,9 +8,67 @@
   <link href="/src/style.css" rel="stylesheet">
 
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-slate-100">
+  <!-- main -->
+   <main>
+    <div class="box flex gap-40  h-screen">
+      <!-- box1 -->
+      <div class="flex-1  grid grid-cols-1 h-full grid-rows-[1fr_1fr_1fr]">
+        <!-- title -->
+         <div class="w-[20vw] h-full    ">
+          <h1 class="text-[5vw] h-full leading-tight   flex items-end ">a cotton weave.</h1>
+         </div>
+        <!-- end title -->
+         <!-- colors -->
+         <div class="mt-10 self-end">
+          <div class="flex items-center border px-2 py-4  w-32 h-10 rounded-full justify-between ">
+            <h3 class="text-xl px-2 ">colors</h3>
+            <div class="flex gap-1.5">
+              <span class="flex size-4 rounded-full bg-green-600"></span>
+              <span class="flex size-4 rounded-full bg-orange-600"></span>
+            </div>
+          </div>
+         </div>
+         <!-- end colors -->
+
+         <!-- bottom desc -->
+          <div class="w-[80%] pb-10 self-end">
+            <h3 class="text-[2vw] font-bold mb-6">Details</h3>
+            <p class="text-[1.2vw] text-stone-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur quasi commodi architecto necessitatibus ipsum nobis eius quo tenetur esse placeat, facere deserunt dicta. Iusto deserunt veniam id nisi impedit.</p>
+          </div>
+         <!-- end bottom desc -->
+
+
+        </div>
+        <!-- end box1 -->
+      <!-- box2 -->
+      <div class="rotate-270 self-center absolute top-[80vh] left-[56vw] translate-x-[-70%] translate-y-[-40%]">
+        <h3 class="text-[2vw] font-bold tracking-wide">Cotton twill cap </h3>
+      </div>
+       <div class="flex-1 self-end">
+        <!-- top content -->
+         <div class="flex justify-between ">
+          <span class="text-[2vw] font-bold">$488</span>
+          <div class="flex gap-2 items-center">
+            <span class="uppercase text-lg font-bold ">rating</span>
+            <div>
+              <span>⭐️</span>
+              <span>⭐️</span>
+              <span>⭐️</span>
+              <span>⭐️</span>
+              <span>⭐️</span>
+            </div>
+          </div>
+         </div>
+        <!-- end top content -->
+        <div class="h-[70vh] ">
+          <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1585237017125-24baf8d7406f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="">
+        </div>
+       </div>
+      <!-- end box2 -->
+    </div>
+   </main>
+  <!-- end main -->
 </body>
 </html>
