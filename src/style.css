@@ -3,3 +3,11 @@
 @utility box {
   @apply container max-w-7xl mx-auto px-4;
 }
+@utility circle {
+  @apply rounded-full bg-black w-32 h-32 absolute left-[90%] top-[10vh];
+}
+@media screen and (max-width: 648px) {
+  .circle {
+    @apply w-24 h-24 -top-[8%] -left-[2%];
+  }
+}
